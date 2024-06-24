@@ -23,3 +23,4 @@
 21. speedtest-cli
 22. qemu
 23. ethereum
+24. neofetch

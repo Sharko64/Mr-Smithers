@@ -9,8 +9,6 @@
 7. iMovie
 8. WhatsApp
 9. discord
-10. tutamail
-11. protonmail
 12. safari ad block
 13. safari rerouter
 14. safari duckduckgo
