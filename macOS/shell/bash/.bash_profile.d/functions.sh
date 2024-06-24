@@ -310,3 +310,10 @@ function stats
 	line17
 	line18
 }
+
+
+function run_with_echo() {
+	echo "Running command: $@"
+	"$@"
+	echo
+}
