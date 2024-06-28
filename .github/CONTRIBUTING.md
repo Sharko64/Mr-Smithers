@@ -1,9 +1,6 @@
-Certainly! Below is a combined `CONTRIBUTING.md` file that includes sections for contributing, code of conduct, security policy, and support guidelines tailored for a bash script repository:
-
-```markdown
 # Contributing Guidelines
 
-Welcome to [Project Name]! We appreciate your interest in contributing. To ensure a smooth and collaborative experience for everyone, please read through the following guidelines.
+Welcome to Configuration-Setup-Tool! We appreciate your interest in contributing. To ensure a smooth and collaborative experience for everyone, please read through the following guidelines.
 
 ## How to Contribute
 
@@ -112,23 +109,4 @@ If you have any questions or need further assistance regarding contributing, sec
 
 ---
 
-Thank you for your interest in contributing to [Project Name]! Your contributions and feedback are highly valued.
-```
-
-### Explanation:
-
-- **How to Contribute**: Provides step-by-step instructions for contributors on how to fork, clone, branch, make changes, commit, push, and submit a pull request.
-
-- **Code of Conduct**: Reminds contributors to follow the project's Code of Conduct when participating in discussions and contributing code.
-
-- **Coding Guidelines**: Offers basic coding guidelines to maintain consistency and clarity in the repository.
-
-- **Review Process**: Describes the review process for pull requests and emphasizes collaboration and feedback.
-
-- **Security Policy**: Outlines the process for reporting security vulnerabilities responsibly and sets expectations for coordination and disclosure.
-
-- **Support Guidelines**: Provides guidance for users seeking help or reporting issues related to the bash scripts, including steps for getting help, reporting issues, and submitting feature requests.
-
-- **Contact**: Offers a contact email for further inquiries or questions related to contributing, security, or support.
-
-This combined `CONTRIBUTING.md` file consolidates all necessary information and guidelines for contributors, ensuring clarity and consistency in the contribution process, while also addressing security and support-related matters effectively. Adjust the placeholders (`[Project Name]`, `contributors@example.com`, `link-to-issues`, `link-to-readme`, etc.) with actual information relevant to your repository.
+Thank you for your interest in contributing to Configuration-Setup-Tool! Your contributions and feedback are highly valued.
