@@ -1,6 +1,6 @@
-# Configuration Setup
+# Configuration Setup Tool
 
-These scripts are meant to preserve configurations states of providedd operaqting systems.
+These scripts are meant to preserve configurations states of provided operating systems.
 
 ## Arch Linux
 
