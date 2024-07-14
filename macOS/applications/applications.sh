@@ -34,8 +34,8 @@ FORMULAE=(
 "youtube-dl"
 )
 
-for ELEMENT in ${FORMULAE[@]}; do
-    brew install $ELEMENT;
+for ELEMENT in "${FORMULAE[@]}"; do
+    brew install "$ELEMENT";
 done
 
 # homebrew casks
@@ -69,8 +69,8 @@ CASKS=(
 "virtualbox"
 )
 
-for ELEMENT in ${CASKS[@]}; do
-    brew install --cask $ELEMENT;
+for ELEMENT in "${CASKS[@]}"; do
+    brew install --cask "$ELEMENT";
 done
 
 # mas
@@ -85,6 +85,6 @@ ID=(
 "1568262835" # SuperAgent
 )
 
-for ELEMENT in ${ID[@]}; do
-    mas install $ELEMENT;
+for ELEMENT in "${ID[@]}"; do
+    mas install "$ELEMENT";
 done
