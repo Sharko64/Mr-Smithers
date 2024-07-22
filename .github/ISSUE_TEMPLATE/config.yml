@@ -1,0 +1,132 @@
+# .github/ISSUE_TEMPLATE/config.yml
+
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://example.com/docs
+    about: Find documentation here.
+  - name: Community Forum
+    url: https://example.com/community
+    about: Join the community discussion here.
+  - name: Support
+    url: https://example.com/support
+    about: Reach out for support here.
+
+issue_templates:
+  - name: Bug Report
+    description: Report a bug to help us improve.
+    title: "[BUG] "
+    labels: ["bug"]
+    assignees:
+      - username1
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            Thanks for taking the time to report a bug! Please provide the following details:
+      - type: input
+        id: bug_title
+        attributes:
+          label: Title
+          description: A clear and concise title of the bug.
+          placeholder: "Enter bug title"
+        validations:
+          required: true
+      - type: textarea
+        id: bug_description
+        attributes:
+          label: Description
+          description: Describe the bug in detail.
+          placeholder: "Enter bug description"
+        validations:
+          required: true
+      - type: textarea
+        id: steps_to_reproduce
+        attributes:
+          label: Steps to Reproduce
+          description: Describe the steps to reproduce the issue.
+          placeholder: "1. Go to...\n2. Click on...\n3. See error"
+        validations:
+          required: true
+      - type: input
+        id: expected_behavior
+        attributes:
+          label: Expected Behavior
+          description: Describe what you expected to happen.
+          placeholder: "Enter expected behavior"
+        validations:
+          required: true
+      - type: input
+        id: actual_behavior
+        attributes:
+          label: Actual Behavior
+          description: Describe what actually happened.
+          placeholder: "Enter actual behavior"
+        validations:
+          required: true
+      - type: input
+        id: screenshots
+        attributes:
+          label: Screenshots
+          description: Add screenshots to help explain your problem.
+          placeholder: "Attach screenshots"
+      - type: input
+        id: additional_info
+        attributes:
+          label: Additional Information
+          description: Add any other context about the problem here.
+          placeholder: "Enter additional information"
+
+  - name: Feature Request
+    description: Suggest an idea for this project.
+    title: "[FEATURE] "
+    labels: ["enhancement"]
+    assignees:
+      - username2
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            Thanks for suggesting a feature! Please provide the following details:
+      - type: input
+        id: feature_title
+        attributes:
+          label: Title
+          description: A clear and concise title of the feature request.
+          placeholder: "Enter feature title"
+        validations:
+          required: true
+      - type: textarea
+        id: feature_description
+        attributes:
+          label: Description
+          description: Describe the feature in detail.
+          placeholder: "Enter feature description"
+        validations:
+          required: true
+      - type: textarea
+        id: additional_info
+        attributes:
+          label: Additional Information
+          description: Add any other context about the feature request here.
+          placeholder: "Enter additional information"
+
+  - name: Custom Issue
+    description: Open a custom issue.
+    title: "[CUSTOM] "
+    labels: ["custom"]
+    assignees:
+      - username3
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            Describe your custom issue in detail:
+      - type: textarea
+        id: custom_issue_description
+        attributes:
+          label: Description
+          description: Describe your custom issue.
+          placeholder: "Enter issue description"
+        validations:
+          required: true
