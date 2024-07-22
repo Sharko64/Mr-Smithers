@@ -1,0 +1,44 @@
+# .github/CODEOWNERS
+
+# This is a basic example of a CODEOWNERS file.
+# Lines starting with '#' are comments.
+
+# Specify the default code owners for the entire repository.
+*       @default-owner
+
+# Define code owners for specific files or directories.
+# These owners will be automatically requested for review when changes are made to these files or directories.
+
+# Code owners for all Markdown files
+*.md    @markdown-owner
+
+# Code owners for specific directories
+/docs/  @docs-owner
+/src/   @src-owner
+/tests/ @test-owner
+
+# Code owners for specific files
+/config.yml @config-owner
+/.github/ISSUE_TEMPLATE/* @issue-template-owner
+
+# You can specify multiple owners for the same files or directories
+# Use spaces to separate multiple owners
+/important-directory/ @owner1 @owner2
+
+# Code owners for a subdirectory within a directory
+/src/components/ @components-owner
+
+# Code owners for a specific file in a subdirectory
+/src/components/Button.js @button-owner
+
+# Team assignments (assuming the teams exist in your GitHub organization)
+/frontend/* @org/frontend-team
+/backend/*  @org/backend-team
+
+# Wildcards can be used to specify patterns
+# For example, all JavaScript files in the repo
+*.js @js-owner
+
+# If you want to assign code owners based on the branch
+# You can use this format
+# branch-name pattern @owner
