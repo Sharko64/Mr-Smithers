@@ -18,6 +18,14 @@ cd <repo>
 bash init.sh --debian
 ```
 
+## macOS
+
+```bash
+gh clone <repo>
+cd <repo>
+bash init.sh --macOS
+```
+
 ## Windows
 
 ```bash
@@ -26,10 +34,5 @@ cd <repo>
 bash init.sh --windows
 ```
 
-## macOS
 
-```bash
-gh clone <repo>
-cd <repo>
-bash init.sh --macOS
-```
+
