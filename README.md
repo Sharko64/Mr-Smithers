@@ -15,7 +15,7 @@ bash init.sh --arch
 ```bash
 gh clone <repo>
 cd <repo>
-bash init.sh --arch
+bash init.sh --debian
 ```
 
 ## Windows
@@ -23,7 +23,7 @@ bash init.sh --arch
 ```bash
 gh clone <repo>
 cd <repo>
-ps1 init.ps1 --arch
+bash init.sh --windows
 ```
 
 ## macOS
@@ -31,5 +31,5 @@ ps1 init.ps1 --arch
 ```bash
 gh clone <repo>
 cd <repo>
-bash init.sh --arch
+bash init.sh --macOS
 ```
