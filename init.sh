@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Function to detect the operating system
-detect_os() {
+function detect_os {
   if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "macOS"
   elif grep -qi microsoft /proc/version; then
