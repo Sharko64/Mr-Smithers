@@ -5,32 +5,32 @@ These scripts are meant to preserve configurations states of provided operating 
 ## Arch Linux
 
 ```bash
-gh repo clone Sharko64/Configuration-Setup
-cd Configuration-Setup
+gh repo clone Sharko64/Mr-Smithers
+cd Mr-Smithers
 bash init.sh --arch
 ```
 
 ## Debian Linux
 
 ```bash
-gh repo clone Sharko64/Configuration-Setup
-cd Configuration-Setup
+gh repo clone Sharko64/Mr-Smithers
+cd Mr-Smithers
 bash init.sh --debian
 ```
 
 ## macOS
 
 ```bash
-gh repo clone Sharko64/Configuration-Setup
-cd Configuration-Setup
+gh repo clone Sharko64/Mr-Smithers
+cd Mr-Smithers
 bash init.sh --macOS
 ```
 
 ## Windows
 
 ```bash
-gh repo clone Sharko64/Configuration-Setup
-cd Configuration-Setup
+gh repo clone Sharko64/Mr-Smithers
+cd Mr-Smithers
 bash init.sh --windows
 ```
 
