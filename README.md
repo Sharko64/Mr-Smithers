@@ -27,12 +27,12 @@ cd Mr-Smithers
 bash init.sh --macOS
 ```
 
-## Windows
+## Windows (WSL)
 
 ```bash
 gh repo clone Sharko64/Mr-Smithers
 cd Mr-Smithers
-bash init.sh --windows
+bash init.sh --windows-WSL
 ```
 
 
