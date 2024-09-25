@@ -17,5 +17,3 @@
 17. the unarchiver
 18. cheatsheet
 19. ql markdown
-
-![Custom Badge](https://img.shields.io/badge/custom-message-orange?style=flat-square&logo=github)
