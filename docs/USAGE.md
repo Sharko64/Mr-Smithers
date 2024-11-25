@@ -5,45 +5,23 @@
 > [!Important]
 > fix to use cURL piped into shell
 
-## Arch Linux
-
+### cURL
 ```bash
-gh repo clone Sharko64/Mr-Smithers
-cd Mr-Smithers
-bash init.sh --arch
+curl
 ```
 
-## Debian Linux
-
+### wget
 ```bash
-gh repo clone Sharko64/Mr-Smithers
-cd Mr-Smithers
-bash init.sh --debian
+wget
 ```
 
-## macOS
-
-```bash
-gh repo clone Sharko64/Mr-Smithers
-cd Mr-Smithers
-bash init.sh --macOS
-```
-
-## Windows (WSL)
-
-```bash
-gh repo clone Sharko64/Mr-Smithers
-cd Mr-Smithers
-bash init.sh --windows-WSL
-```
-
-## version
+## Version
 
 ```bash
 smithers --version
 ```
 
-## help
+## Help
 
 ```bash
 smithers --help
